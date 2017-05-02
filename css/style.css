@@ -47,7 +47,7 @@ body {
 
 .nav-pane {
     position: fixed;
-    background: #f2ede2;
+    background: #f5f0e6;
     width: 100%;
     height: 50px;
     padding: 5px 0;
@@ -222,7 +222,7 @@ h2 {
     text-align: right;
 }
 
-.job-board button {
+.btn-div a {
     letter-spacing: 1px;
     padding: 10px 35px;
     border: 2px solid #222222;
@@ -235,7 +235,7 @@ h2 {
     color: #ffffff;
 }
 
-.job-vacancy:nth-child(2) button {
+.job-vacancy:nth-child(2) a {
     color: #fff;
     border: 2px solid #fff;
     background: #222222;
@@ -485,6 +485,9 @@ footer {
     .large-image {
         display: none;
     }
+    .nav-pane {
+        background: #f2ede2;
+    }
     .nav-pane .nav {
         height: 100vh;
     }
@@ -492,18 +495,6 @@ footer {
         width: 75%;
     }
 }
-
-/*@media (min-width:481px) {*/
-    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-/*}*/
-
-/*@media (min-width:641px) {*/
-    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-/*}*/
-
-/*@media (min-width:961px) {*/
-    /* tablet, landscape iPad, lo-res laptops ands desktops */
-/*}*/
 
 @media (min-width:1025px) {
     /* big landscape tablets, laptops, and desktops */
